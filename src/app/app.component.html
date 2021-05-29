@@ -1,0 +1,42 @@
+<!-- Progress Loading bar Start -->
+
+<ngx-loading-bar [color]="'#74b9ff'" [includeSpinner]="false" [height]="'3px'"></ngx-loading-bar>
+
+<!-- Progress Loading bar End -->
+
+
+<!-- NavBar Start -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand main_logo_heading" routerLink="">Newsbie</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse my_navbar" id="navbarNav">
+      <ul class="navbar-nav ml-auto mr-5">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="business">Business News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="entertainment">Entertainment News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="sports">Sports News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="tech">Technology News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="health">Health News</a>
+        </li>
+       
+      </ul>
+    </div>
+  </nav>
+
+          
+  <!-- NavBar End -->
+  
+<router-outlet></router-outlet>
